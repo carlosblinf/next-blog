@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import Script from 'next/script'
 
 export default function FirstPost() {
@@ -18,6 +19,9 @@ export default function FirstPost() {
       <h2>
         This is the first Post
       </h2>
+      <Link href="/">
+        <a>← Back to home</a>
+      </Link>
     </>
   );
 }
