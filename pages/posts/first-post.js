@@ -1,10 +1,9 @@
-import Layout from '../../components/layout'
 import Head from 'next/head'
 import Script from 'next/script'
 
 export default function FirstPost() {
   return (
-    <Layout>
+    <>
       <Head>
         <title>First Post</title>
       </Head>
@@ -19,6 +18,6 @@ export default function FirstPost() {
       <h2>
         This is the first Post
       </h2>
-    </Layout>
+    </>
   );
 }
